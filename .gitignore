@@ -1,0 +1,7 @@
+*~
+*.lst
+/cache
+/configure.log
+/.lyx_configure_lock
+/lyxrc.defaults
+/session
