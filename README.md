@@ -12,7 +12,7 @@ To install, simply clone this repo to your `.lyx` directory:
 
 ## Usage
 
-See the official documentation on the different directories and files in the Lyx user directory and their usage.
+See the official [documentation](https://wiki.lyx.org/LyX/UserDir) on the different directories and files in the LyX user directory and their usage.
 
 ## License
 
