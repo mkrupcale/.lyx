@@ -1,0 +1,69 @@
+#% Do not delete the line below; configure depends on this
+#  \DeclareLaTeXClass[anstrans,article]{ANS Transactions}
+#  \DeclareCategory{Articles}
+# Author : Matthew Krupcale <mkrupcale@matthewkrupcale.com>
+#
+# ANS Transaction Summary textclass definition file.
+
+Format 60
+
+Input stdclass.inc
+
+SecNumDepth			3
+TocDepth			3
+
+NoStyle Chapter
+NoCounter chapter
+NoStyle Chapter*
+
+ClassOptions
+	FontSize		10
+End
+
+Style Part
+	Align			Left
+	AlignPossible		Left
+	TopSep			2
+	BottomSep		1.5
+	Font
+		Size		Larger
+	EndFont
+End
+
+Style Part*
+	Align			Left
+	AlignPossible		Left
+	TopSep			2
+	BottomSep		1.5
+	Font
+		Size		Larger
+	EndFont
+End
+
+Style Address
+	LatexType		Command
+	LatexName		institute
+	InTitle			1
+	Align			Center
+	Font
+		Shape		Italic
+	EndFont
+End
+
+Style Email
+	LatexType		Command
+	LatexName		email
+	Category		FrontMatter
+	InTitle			1
+	Align			Center
+	Font
+		Shape		Italic
+	EndFont
+End
+
+Style Disclaimer
+	LatexType		Command
+	LatexName		disclaimer
+	Category		FrontMatter
+	InTitle			1
+End
