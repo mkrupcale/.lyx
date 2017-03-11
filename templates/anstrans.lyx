@@ -9,6 +9,9 @@
 \usepackage{microtype}% improves typography for PDF
 \end_preamble
 \use_default_options false
+\begin_modules
+foottoend
+\end_modules
 \maintain_unincluded_children false
 \language english
 \language_package none
@@ -104,63 +107,10 @@ http://www.ans.org/pubs/transactions/
 
 \begin_layout Title
 An Improved ANS Transaction Template
-\end_layout
-
-\begin_layout Author
-Seth R.~Johnson,
-\begin_inset Formula $^{*}$
-\end_inset
-
- Abraham Lincoln
-\begin_inset Formula $^{\dagger}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Address
-\begin_inset Formula $^{*}$
-\end_inset
-
-Radiation Transport Group, Oak Ridge National Laboratory, P.O.
- Box 2008, Oak Ridge, TN
-\begin_inset ERT
-status open
+\begin_inset Foot
+status collapsed
 
 \begin_layout Plain Layout
-
-
-\backslash
-and
-\end_layout
-
-\end_inset
-
-
-\begin_inset Formula $^{\dagger}$
-\end_inset
-
-State Capitol Building, Springfield, IL
-\end_layout
-
-\begin_layout Email
-sethrj@umich.edu
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-and
-\end_layout
-
-\end_inset
-
- honestabe@example.com
-\end_layout
-
-\begin_layout Disclaimer
 Notice: this manuscript is a work of fiction.
  Any resemblance to actual articles, living or dead, is purely coincidental.
 \begin_inset Note Note
@@ -175,7 +125,74 @@ Optional disclaimer: remove to hide.
 
 \end_layout
 
-\begin_layout Section
+\end_inset
+
+
+\end_layout
+
+\begin_layout Author
+Matthew J.
+ Krupcale,
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+
+ Abraham Lincoln
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Address
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+
+Nuclear Engineering and Radiological Sciences, University of Michigan, 2355
+ Bonisteel Blvd, Ann Arbor, MI 48109-2104, USA
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+and
+\end_layout
+
+\end_inset
+
+
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+State Capitol Building, Springfield, IL
+\end_layout
+
+\begin_layout Email
+krupcale@umich.edu, honestabe@example.com
+\end_layout
+
+\begin_layout Section*
 Introduction
 \end_layout
 
@@ -221,7 +238,7 @@ key "Lar2008"
 .
 \end_layout
 
-\begin_layout Section
+\begin_layout Section*
 Theory
 \end_layout
 
@@ -312,7 +329,7 @@ end{subequations}
 
 \end_layout
 
-\begin_layout Section
+\begin_layout Section*
 Results and Analysis
 \end_layout
 
@@ -321,7 +338,7 @@ The results were interesting, so interesting in fact that we have decided
  to present them here.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsection*
 Subsection Goes Here
 \end_layout
 
@@ -983,8 +1000,7 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-6.213
-\begin_inset Formula $\times10^{-5}$
+\begin_inset Formula $6.213\times10^{-5}$
 \end_inset
 
  
@@ -1102,7 +1118,7 @@ verb|table*|
  The same applies to figures.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsection*
 Another Subsection
 \end_layout
 
@@ -1111,7 +1127,7 @@ Excessive sectioning in a three-page document is discouraged, but here are
  more subsections to demonstrate compliance with the ANS formatting guidelines.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsubsection*
 Third-level Heading
 \end_layout
 
@@ -1120,7 +1136,7 @@ This subsubsection shows compliance with the ANS-specified standard.
  This level of heading should be used rarely.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsubsection*
 Another Such Heading
 \end_layout
 
@@ -1129,7 +1145,7 @@ And, if you really think you need a third-level heading, you should make
  sure that your subsection needs at least two of them.
 \end_layout
 
-\begin_layout Section
+\begin_layout Section*
 Conclusions
 \end_layout
 
@@ -1164,13 +1180,70 @@ a+b=c\,.\label{eq:appendix2}
 
 \end_layout
 
-\begin_layout Section
+\begin_layout Section*
 Acknowledgments
 \end_layout
 
 \begin_layout Standard
 This material is based upon work supported a Department of Energy Nuclear
  Energy University Programs Graduate Fellowship.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ifcsname theendnote
+\backslash
+endcsname
+\end_layout
+
+\begin_layout Plain Layout
+
+ 
+\backslash
+ifnum
+\backslash
+theendnote>0%
+\end_layout
+
+\begin_layout Plain Layout
+
+  
+\backslash
+def
+\backslash
+notesname{Endnotes}
+\end_layout
+
+\begin_layout Plain Layout
+
+  
+\backslash
+theendnotes
+\end_layout
+
+\begin_layout Plain Layout
+
+ 
+\backslash
+fi
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fi
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard

@@ -1,9 +1,11 @@
 #% Do not delete the line below; configure depends on this
-#  \DeclareLaTeXClass[anstrans,article]{ANS Transactions}
+#  \DeclareLaTeXClass[anstrans,article]{American Nuclear Society (ANS) Transactions}
 #  \DeclareCategory{Articles}
 # Author : Matthew Krupcale <mkrupcale@matthewkrupcale.com>
 #
-# ANS Transaction Summary textclass definition file.
+# American Nuclear Society (ANS) ANS Transaction Summary textclass definition
+# file. It is based on the `anstrans.cls` file by Seth R. Johnson at
+# https://github.com/sethrj/anstrans or http://www.ans.org/pubs/transactions/.
 
 Format 60
 
@@ -12,31 +14,17 @@ Input stdclass.inc
 SecNumDepth			3
 TocDepth			3
 
-NoStyle Chapter
-NoCounter chapter
-NoStyle Chapter*
-
 ClassOptions
 	FontSize		10
 End
 
-Style Part
-	Align			Left
-	AlignPossible		Left
-	TopSep			2
-	BottomSep		1.5
-	Font
-		Size		Larger
-	EndFont
-End
+################################################################################
+# Front Matter / Title
+################################################################################
 
-Style Part*
-	Align			Left
-	AlignPossible		Left
-	TopSep			2
-	BottomSep		1.5
+ModifyStyle Title
 	Font
-		Size		Larger
+		Series		Bold
 	EndFont
 End
 
@@ -61,9 +49,60 @@ Style Email
 	EndFont
 End
 
-Style Disclaimer
-	LatexType		Command
-	LatexName		disclaimer
-	Category		FrontMatter
-	InTitle			1
+################################################################################
+# Sectioning
+################################################################################
+
+NoStyle Part
+NoCounter part
+NoStyle Part*
+
+NoStyle Chapter
+NoCounter chapter
+NoStyle Chapter*
+
+ModifyStyle Section
+	Font
+		Shape		SmallCaps
+	EndFont
+	HTMLTag			h1
 End
+
+ModifyStyle Section*
+	Font
+		Shape		SmallCaps
+	EndFont
+	HTMLTag			h1
+End
+
+ModifyStyle Subsection
+	HTMLTag			h2
+End
+
+ModifyStyle Subsection*
+	HTMLTag			h2
+End
+
+ModifyStyle Subsubsection
+	Font
+		Series		Medium
+		Shape		Italic
+	EndFont
+	HTMLTag			h3
+End
+
+ModifyStyle Subsubsection*
+	Font
+		Series		Medium
+		Shape		Italic
+	EndFont
+	HTMLTag			h3
+End
+
+NoStyle Paragraph
+NoCounter paragraph
+NoStyle Paragraph*
+
+NoStyle Subparagraph
+NoCounter subparagraph
+NoStyle Subparagraph*
