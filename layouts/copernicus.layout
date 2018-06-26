@@ -1,0 +1,250 @@
+#% Do not delete the line below; configure depends on this
+#  \DeclareLaTeXClass[copernicus,article]{Copernicus Publications}
+#  \DeclareCategory{Articles}
+# SPDX-License-Identifier: MIT
+# Author : Matthew Krupcale <mkrupcale@matthewkrupcale.com>
+#
+# Copernicus Publications (Copernicus GmbH) textclass definition file.
+# It is based on the `copernicus.cls` file by by Copernicus Publications
+# at https://publications.copernicus.org/Copernicus_LaTeX_Package.zip.
+
+Format 60
+
+Input stdclass.inc
+
+SecNumDepth			3
+TocDepth			3
+
+ClassOptions
+	FontSize		10|11|12
+End
+
+################################################################################
+# Front Matter / Title
+################################################################################
+
+NoStyle Author
+NoStyle Address
+NoStyle Right_Address
+NoStyle Date
+
+ModifyStyle Title
+	Align			Center
+	Font
+		Series		Bold
+	EndFont
+End
+
+Style Author
+	LatexType		Command
+	LatexName		Author
+	Argument		1
+		LabelString	"Affiliation"
+		MenuString	"Affiliation Identifier"
+		Mandatory	0
+		Decoration	Conglomerate
+		Tooltip		"Insert the affiliation identifier here (e.g. 1, 2, 3, etc.)"
+		Font
+			Series	Medium
+		EndFont
+	EndArgument
+	Argument		2
+		Mandatory	1
+		LabelString	"Given name"
+	EndArgument
+	Category		FrontMatter
+	InTitle			1
+	Font
+		Series		Bold
+	EndFont
+End
+
+Style "Address"
+	LatexType		Command
+	LatexName		affil
+	Argument		1
+		LabelString	"Affiliation"
+		MenuString	"Affiliation Identifier"
+		Mandatory	0
+		Decoration	Conglomerate
+		Tooltip		"Insert the affiliation identifier here (e.g. 1, 2, 3, etc.)"
+		Font
+			Series	Medium
+		EndFont
+	EndArgument
+	Category		FrontMatter
+	InTitle			1
+End
+
+Style "Running Title"
+	LatexType		Command
+	LatexName		runningtitle
+	Category		FrontMatter
+	InTitle			1
+	Font
+		Series		Bold
+	EndFont
+End
+
+Style "Running Author"
+	LatexType		Command
+	LatexName		runningauthor
+	Category		FrontMatter
+	InTitle			1
+	Font
+		Series		Bold
+	EndFont
+End
+
+Style Correspondence
+	LatexType		Command
+	LatexName		correspondence
+	Category		FrontMatter
+	InTitle			1
+End
+
+Style "Copyright Statement"
+	LatexType		Command
+	LatexName		copyrightstatement
+	Category		FrontMatter
+End
+
+################################################################################
+# Sectioning
+################################################################################
+
+NoStyle Part
+NoCounter part
+NoStyle Part*
+
+NoStyle Chapter
+NoCounter chapter
+NoStyle Chapter*
+
+ModifyStyle Section
+	HTMLTag			h1
+End
+
+ModifyStyle Section*
+	HTMLTag			h1
+End
+
+ModifyStyle Subsection
+	HTMLTag			h2
+End
+
+ModifyStyle Subsection*
+	HTMLTag			h2
+End
+
+ModifyStyle Subsubsection
+	HTMLTag			h3
+End
+
+ModifyStyle Subsubsection*
+	HTMLTag			h3
+End
+
+NoStyle Paragraph
+NoCounter paragraph
+NoStyle Paragraph*
+
+NoStyle Subparagraph
+NoCounter subparagraph
+NoStyle Subparagraph*
+
+InsetLayout Flex:Introduction
+	LyXType			Custom
+	LabelString		"Introduction"
+	LatexType		Command
+	LatexName		introduction
+	Decoration		Classic
+	MultiPar		1
+	CustomPars		1
+	Argument		1
+		LabelString	"Heading"
+		MenuString	"Introduction Heading"
+		Mandatory	0
+		Decoration	Conglomerate
+		Tooltip		"Insert the introduction header here"
+		Font
+			Size	Large
+			Series	Bold
+		EndFont
+	EndArgument
+	ResetsFont		1
+End
+
+InsetLayout Flex:Conclusions
+	LyXType			Custom
+	LabelString		"Conclusions"
+	LatexType		Command
+	LatexName		conclusions
+	Decoration		Classic
+	MultiPar		1
+	CustomPars		1
+	Argument		1
+		LabelString	"Heading"
+		MenuString	"Conclusions Heading"
+		Mandatory	0
+		Decoration	Conglomerate
+		Tooltip		"Insert the conclusions header here"
+		Font
+			Size	Large
+			Series	Bold
+		EndFont
+	EndArgument
+	ResetsFont		1
+End
+
+################################################################################
+# Back Matter
+################################################################################
+
+Style "Code Availability"
+	LatexType		Command
+	LatexName		codeavailability
+	Category		BackMatter
+End
+
+Style "Data Availability"
+	LatexType		Command
+	LatexName		dataavailability
+	Category		BackMatter
+End
+
+Style "Code and Data Availability"
+	LatexType		Command
+	LatexName		codedataavailability
+	Category		BackMatter
+End
+
+Style "Sample Availability"
+	LatexType		Command
+	LatexName		sampleavailability
+	Category		BackMatter
+End
+
+Style "Author Contribution"
+	LatexType		Command
+	LatexName		authorcontribution
+	Category		BackMatter
+End
+
+Style "Competing Interests"
+	LatexType		Command
+	LatexName		competinginterests
+	Category		BackMatter
+End
+
+Style Disclaimer
+	LatexType		Command
+	LatexName		disclaimer
+	Category		BackMatter
+End
+
+Style Acknowledgements
+	LatexType		Environment
+	LatexName		acknowledgements
+	Category		BackMatter
+End

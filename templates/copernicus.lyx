@@ -1,0 +1,2211 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass copernicus
+\begin_preamble
+% These dates will be inserted by Copernicus Publications during the typesetting process.
+\received{}
+\pubdiscuss{} % only important for two-stage journals
+\revised{}
+\accepted{}
+\published{}
+
+\firstpage{1}
+\end_preamble
+\options journal abbreviation,manuscript
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding utf8
+\fontencoding default
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style copernicus
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+This is a template \SpecialChar LyX
+ file for Copernicus Publications Manuscript \SpecialChar LaTeX
+ submissions.
+ The class file and some style files are bundled in the Copernicus Latex
+ Package, which can be downloaded from the different journal webpages.
+ For general info see 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://publications.copernicus.org/
+\end_layout
+
+\end_inset
+
+, and for guidance on manuscript preparation see 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://publications.copernicus.org/for_authors/manuscript_preparation.html
+\end_layout
+
+\end_inset
+
+.
+ For further assistance please contact Copernicus Publications at: 
+\family typewriter
+production@copernicus.org
+\family default
+.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Journal abbreviations (please use the same for discussion papers and final
+ revised papers):
+\end_layout
+
+\begin_layout Itemize
+Advances in Geosciences (
+\family typewriter
+adgeo
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+Advances in Radio Science (
+\family typewriter
+ars
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+Advances in Science and Research (
+\family typewriter
+asr
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+Advances in Statistical Climatology, Meteorology and Oceanography (
+\family typewriter
+ascmo
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+Annales Geophysicae (
+\family typewriter
+angeo
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+Archives Animal Breeding (
+\family typewriter
+aab
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+ASTRA Proceedings (
+\family typewriter
+ap
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+Atmospheric Chemistry and Physics (
+\family typewriter
+acp
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+Atmospheric Measurement Techniques (
+\family typewriter
+amt
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+Biogeosciences (
+\family typewriter
+bg
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+Climate of the Past (
+\family typewriter
+cp
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+Drinking Water Engineering and Science (
+\family typewriter
+dwes
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+Earth Surface Dynamics (
+\family typewriter
+esurf
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+Earth System Dynamics (
+\family typewriter
+esd
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+Earth System Science Data (
+\family typewriter
+essd
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+E&G Quaternary Science Journal (
+\family typewriter
+egqsj
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+Fossil Record (
+\family typewriter
+fr
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+Geographica Helvetica (
+\family typewriter
+gh
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+Geoscience Communication (
+\family typewriter
+gc
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+Geoscientific Instrumentation, Methods and Data Systems (
+\family typewriter
+gi
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+Geoscientific Model Development (
+\family typewriter
+gmd
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+History of Geo- and Space Sciences (
+\family typewriter
+hgss
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+Hydrology and Earth System Sciences (
+\family typewriter
+hess
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+Journal of Micropalaeontology (
+\family typewriter
+jm
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+Journal of Sensors and Sensor Systems (
+\family typewriter
+jsss
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+Mechanical Sciences (
+\family typewriter
+ms
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+Natural Hazards and Earth System Sciences (
+\family typewriter
+nhess
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+Nonlinear Processes in Geophysics (
+\family typewriter
+npg
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+Ocean Science (
+\family typewriter
+os
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+Primate Biology (
+\family typewriter
+pb
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+Proceedings of the International Association of Hydrological Sciences (
+\family typewriter
+piahs
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+Scientific Drilling (
+\family typewriter
+sd
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+SOIL (
+\family typewriter
+soil
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+Solid Earth (
+\family typewriter
+se
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+The Cryosphere (
+\family typewriter
+tc
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+Web Ecology (
+\family typewriter
+we
+\family default
+)
+\end_layout
+
+\begin_layout Itemize
+Wind Energy Science (
+\family typewriter
+wes
+\family default
+)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Title
+A Copernicus Publications \SpecialChar LyX
+ template
+\end_layout
+
+\begin_layout Author
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Matthew J.
+\end_layout
+
+\end_inset
+
+Krupcale
+\end_layout
+
+\begin_layout Author
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Abraham
+\end_layout
+
+\end_inset
+
+Lincoln
+\end_layout
+
+\begin_layout Address
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+
+Nuclear Engineering and Radiological Sciences, University of Michigan, 2355
+ Bonisteel Blvd, Ann Arbor, MI 48109-2104, USA
+\end_layout
+
+\begin_layout Address
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+State Capitol Building, Springfield, IL
+\end_layout
+
+\begin_layout Running Title
+A Copernicus Publications \SpecialChar LyX
+ template
+\end_layout
+
+\begin_layout Running Author
+M.
+ J.
+ Krupcale
+\end_layout
+
+\begin_layout Correspondence
+Matthew J.
+ Krupcale (
+\family typewriter
+krupcale@umich.edu
+\family default
+)
+\end_layout
+
+\begin_layout Abstract
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+ tempor incididunt ut labore et dolore magna aliqua.
+ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+ ut aliquip ex ea commodo consequat.
+ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+ eu fugiat nulla pariatur.
+ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+ deserunt mollit anim id est laborum.
+\end_layout
+
+\begin_layout Copyright Statement
+Copyright statement.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+optional
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Introduction
+status open
+
+\begin_layout Plain Layout
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+ tempor incididunt ut labore et dolore magna aliqua.
+ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+ ut aliquip ex ea commodo consequat 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "manual-full"
+literal "false"
+
+\end_inset
+
+.
+ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+ eu fugiat nulla pariatur.
+ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+ deserunt mollit anim id est laborum.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Methods
+\end_layout
+
+\begin_layout Standard
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+ tempor incididunt ut labore et dolore magna aliqua.
+ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+ ut aliquip ex ea commodo consequat.
+ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+ eu fugiat nulla pariatur.
+ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+ deserunt mollit anim id est laborum 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "article-full"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Subsection
+\end_layout
+
+\begin_layout Standard
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+ tempor incididunt ut labore et dolore magna aliqua.
+ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+ ut aliquip ex ea commodo consequat.
+ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+ eu fugiat nulla pariatur.
+ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+ deserunt mollit anim id est laborum 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "techreport-full"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+ tempor incididunt ut labore et dolore magna aliqua.
+ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+ ut aliquip ex ea commodo consequat.
+ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+ eu fugiat nulla pariatur.
+ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+ deserunt mollit anim id est laborum.
+\end_layout
+
+\begin_layout Subsubsection
+Subsubsection
+\end_layout
+
+\begin_layout Standard
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+ tempor incididunt ut labore et dolore magna aliqua.
+ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+ ut aliquip ex ea commodo consequat 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "misc-full"
+literal "false"
+
+\end_inset
+
+.
+ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+ eu fugiat nulla pariatur.
+ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+ deserunt mollit anim id est laborum.
+\end_layout
+
+\begin_layout Section
+Results and discussion
+\end_layout
+
+\begin_layout Standard
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+ tempor incididunt ut labore et dolore magna aliqua.
+ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+ ut aliquip ex ea commodo consequat.
+ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+ eu fugiat nulla pariatur.
+ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+ deserunt mollit anim id est laborum.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Conclusions
+status open
+
+\begin_layout Plain Layout
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+ tempor incididunt ut labore et dolore magna aliqua.
+ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+ ut aliquip ex ea commodo consequat.
+ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+ eu fugiat nulla pariatur.
+ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+ deserunt mollit anim id est laborum.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+The following commands are for the statements about the availability of
+ data sets and/or software code corresponding to the manuscript.
+ It is strongly recommended to make use of these sections in case data sets
+ and/or software code have been part of your research on which the article
+ is based.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Code Availability
+Code availability.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Use this section when having only software code available.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Data Availability
+Data availability.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Use this section when having only data sets available.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Code and Data Availability
+Code and data availability.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Use this section when having data sets and software code available.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Sample Availability
+Sample availability.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Use this section when having geoscientific samples available.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\start_of_appendix
+Appendix
+\end_layout
+
+\begin_layout Subsection
+Appendix subsection
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noappendix
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Use this to mark the end of the appendix section.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Regarding figures and tables in appendices, the following two options are
+ possible depending on your general handling of figures and tables in the
+ manuscript environment:
+\end_layout
+
+\begin_layout Itemize
+Option 1: If you sorted all figures and tables into the sections of the
+ text, please also sort the appendix figures and appendix tables into the
+ respective appendix sections.
+ They will be correctly named automatically.
+\end_layout
+
+\begin_layout Itemize
+Option 2: If you put all figures after the reference list, please insert
+ appendix tables and figures after the normal tables and figures.
+ To rename them correctly to A1, A2, etc., please add the following commands
+ in front of them: 
+\family typewriter
+
+\backslash
+appendixfigures
+\family default
+ and 
+\family typewriter
+
+\backslash
+appendixtables
+\family default
+.
+ These are already placed below.
+\end_layout
+
+\begin_layout Plain Layout
+Please add 
+\family typewriter
+
+\backslash
+clearpage
+\family default
+ between each table and/or figure.
+ Further guidelines on figures and tables can be found below.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+appendixfigures
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+needs to be added in front of appendix figures
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+appendixtables
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+needs to be added in front of appendix tables
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Please add 
+\family typewriter
+
+\backslash
+clearpage
+\family default
+ between each table and/or figure.
+ Further guidelines on figures and tables can be found below.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Author Contribution
+Author contribution.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+optional
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Competing Interests
+The authors declare that they have no conflict of interest.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+This section is mandatory even if you declare that no competing interests
+ are present.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Disclaimer
+Disclaimer.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+optional
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Acknowledgements
+Acknowledgments.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintCited"
+bibfiles "xampl"
+options "copernicus"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Since the Copernicus \SpecialChar LaTeX
+ package includes the BibTeX style file 
+\family typewriter
+copernicus.bst
+\family default
+, authors experienced with BibTeX only have to include the following two
+ lines:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibliographystyle{copernicus}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibliography{example.bib}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+URLs and DOIs can be entered in your BibTeX file as:
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+URL = {http://www.xyz.org/~jones/idx_g.htm}
+\end_layout
+
+\begin_layout Plain Layout
+
+DOI = {10.5194/xyz}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Section*
+Literature citations
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="9" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Command
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Exapmle result
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citet{jones90}|
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Jones et al.
+ (1990)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{jones90}|
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(Jones et al., 1990)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep{jones90,jones93}|
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(Jones et al., 1990, 1993)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep[p.~32]{jones90}|
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(Jones et al., 1990, p.~32)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep[e.g.,][]{jones90}|
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(e.g., Jones et al., 1990)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citep[e.g.,][p.~32]{jones90}|
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(e.g., Jones et al., 1990, p.~32)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citeauthor{jones90}|
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Jones et al.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+citeyear{jones90}|
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1990
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Figures
+\end_layout
+
+\begin_layout Plain Layout
+When figures and tables are placed at the end of the MS (article in one-column
+ style), please add 
+\family typewriter
+
+\backslash
+clearpage
+\family default
+ between bibliography and first table and/or figure as well as between each
+ table and/or figure.
+\end_layout
+
+\begin_layout Subsection*
+One-column figures
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%f
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{figure}[t]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[width=8.3cm]{FILE NAME}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+caption{TEXT}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{figure}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Two-column figures
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%f
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{figure*}[t]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[width=12cm]{FILE NAME}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+caption{TEXT}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{figure*}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Tables
+\end_layout
+
+\begin_layout Plain Layout
+The different columns must be separated with a 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+&
+\end_layout
+
+\end_inset
+
+ command and should end with 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+ to identify the column brake.
+\end_layout
+
+\begin_layout Subsection*
+One-column table
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%t
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{table}[t]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+caption{TEXT}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tabular}{column = lcr}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+tophline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+middlehline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+bottomhline
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tabular}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+belowtable{} % Table Footnotes
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{table}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Two-column table
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%t
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{table*}[t]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+caption{TEXT}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tabular}{column = lcr}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+tophline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+middlehline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+bottomhline
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tabular}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+belowtable{} % Table Footnotes
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{table*}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Landscape table
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%t
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{sidewaystable*}[t]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+caption{TEXT}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tabular}{column = lcr}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+tophline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+middlehline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+bottomhline
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tabular}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+belowtable{} % Table Footnotes
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{sidewaystable*}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Mathematical expressions
+\end_layout
+
+\begin_layout Plain Layout
+All papers typeset by Copernicus Publications follow the math typesetting
+ regulations given by the IUPAC Green Book (IUPAC: Quantities, Units and
+ Symbols in Physical Chemistry, 2nd Edn., Blackwell Science, available at:
+ 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://old.iupac.org/publications/books/gbook/green_book_2ed.pdf
+\end_layout
+
+\end_inset
+
+, 1993).
+\end_layout
+
+\begin_layout Itemize
+Physical quantities/variables are typeset in italic font (
+\emph on
+t
+\emph default
+ for time, 
+\emph on
+T
+\emph default
+ for Temperature).
+\end_layout
+
+\begin_layout Itemize
+Indices which are not defined are typeset in italic font (
+\emph on
+x
+\emph default
+, 
+\emph on
+y
+\emph default
+, 
+\emph on
+z
+\emph default
+, 
+\emph on
+a
+\emph default
+, 
+\emph on
+b
+\emph default
+, 
+\emph on
+c
+\emph default
+).
+\end_layout
+
+\begin_layout Itemize
+Items/objects which are defined are typeset in roman font (Car A, Car B).
+\end_layout
+
+\begin_layout Itemize
+Descriptions/specifications which are defined by itself are typeset in roman
+ font (abs, rel, ref, tot, net, ice).
+\end_layout
+
+\begin_layout Itemize
+Abbreviations from 2 letters are typeset in roman font (RH, LAI).
+\end_layout
+
+\begin_layout Itemize
+Vectors are identified in 
+\series bold
+bold
+\series default
+ 
+\emph on
+italic
+\emph default
+ font using 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vec{x}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Matrices are identified in 
+\series bold
+bold
+\series default
+ roman font.
+\end_layout
+
+\begin_layout Itemize
+Multiplication signs are typeset using the \SpecialChar LaTeX
+ commands 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+times
+\end_layout
+
+\end_inset
+
+ (for vector products, grids, and exponential notations) or 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cdot
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+The character 
+\family typewriter
+*
+\family default
+ should not be applied as multiplication sign.
+\end_layout
+
+\begin_layout Subsection*
+Equations
+\end_layout
+
+\begin_layout Subsubsection*
+Single-row equations
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{equation}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{equation}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Multiline equation
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{align}
+\end_layout
+
+\begin_layout Plain Layout
+
+& 3 + 5 = 8
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& 3 + 5 = 8
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+& 3 + 5 = 8
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{align}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Matrices
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{matrix}
+\end_layout
+
+\begin_layout Plain Layout
+
+x & y & z
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+x & y & z
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+x & y & z
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{matrix}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Algorithm
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{algorithm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+caption{...}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+label{a1}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{algorithmic}
+\end_layout
+
+\begin_layout Plain Layout
+
+...
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{algorithmic}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{algorithm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Chemical formulas and reactions
+\end_layout
+
+\begin_layout Plain Layout
+For formulas embedded in the text, please use 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+chem{}
+\end_layout
+
+\end_inset
+
+.
+ The reaction environment creates labels including the letter R, i.e.
+ (R1), (R2), etc.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{reaction}
+\end_layout
+
+\begin_layout Plain Layout
+
+% 
+\backslash
+rightarrow should be used for normal (one-way) chemical reactions
+\end_layout
+
+\begin_layout Plain Layout
+
+% 
+\backslash
+rightleftharpoons should be used for equilibria
+\end_layout
+
+\begin_layout Plain Layout
+
+% 
+\backslash
+leftrightarrow should be used for resonance structures
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{reaction}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Physical units
+\end_layout
+
+\begin_layout Plain Layout
+Please use 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+unit{}
+\end_layout
+
+\end_inset
+
+ and apply the exponential notation.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
