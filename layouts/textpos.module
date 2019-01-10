@@ -1,0 +1,38 @@
+#\DeclareLyXModule[textpos.sty]{Position objects on the page}
+#DescriptionBegin
+#This module provides basic support for the textpos package
+#that lets you position text and images at absolute positions
+#on a page or slide.
+#DescriptionEnd
+
+# Author: Jürgen Spitzmüller <spitz@lyx.org>
+
+Format 48
+
+
+InsetLayout Flex:TextBlock
+   LyXType         custom
+   LatexName       textblock*
+   LatexType       environment
+   Decoration      classic
+   LabelString     Textblock
+   MultiPar        true
+   ResetsFont      true
+   Argument 1
+     Mandatory     1
+     LabelString   "Width"
+     DefaultArg    "\columnwidth"
+     Tooltip       "Enter the width of the block here."
+   EndArgument
+   Argument 2
+     Mandatory     1
+     LeftDelim     (
+     RightDelim    )
+     LabelString   "Pos"
+     DefaultArg    "0pt,0pt"
+     Tooltip       "Enter the coordinates in the form x-value,y-value here. Use the usual values (such as 2mm)."
+   EndArgument
+   Preamble
+     \@ifclassloaded{beamer}{\usepackage[absolute,overlay]{textpos}}{\usepackage{textpos}}
+   EndPreamble
+End
